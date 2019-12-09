@@ -14,5 +14,7 @@ if guess != num:
         if guess < num:
             print("try higher this time")
         guess = int(input(""))
+if guess == num:
+    print("Congratulations, you've guessed it!")
 
 
